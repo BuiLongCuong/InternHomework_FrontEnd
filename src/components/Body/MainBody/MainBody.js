@@ -4,7 +4,7 @@ export default function MainBody() {
   //ab
   return (
     <>
-      <div className="mainBody">phong</div>
+      <div className="mainBody">phong123</div>
     </>
   );
 }
