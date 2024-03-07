@@ -9,6 +9,7 @@ export default function Body() {
                 <SideBar/>
                 <MainBody/>
             </div>
+            Cường test
         </>
     )
 }
