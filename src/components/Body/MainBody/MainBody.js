@@ -4,7 +4,7 @@ export default function MainBody() {
   //ab
   return (
     <>
-      <div className="mainBody">phong123456</div>
+      <div className="mainBody">cường</div>
     </>
   );
 }
