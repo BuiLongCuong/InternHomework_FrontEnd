@@ -1,11 +1,10 @@
-import "./MainBody.css"
+import "./MainBody.css";
 
 export default function MainBody() {
-    return (
-        <>
-            <div className="mainBody">
-                Hà Duy Thái
-            </div>
-        </>
-    )
+  //ab
+  return (
+    <>
+      <div className="mainBody">phong123456</div>
+    </>
+  );
 }
