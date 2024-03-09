@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./SideBar.css";
 import {useLocation} from "react-router-dom";
-import "./SideBar.css"
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
 
 export default function SideBar() {

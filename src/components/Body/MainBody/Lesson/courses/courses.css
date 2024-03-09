@@ -1,10 +1,26 @@
 .titleCourses {
   margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+.boxTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.nextCourses {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+.kickNext {
+  position: relative;
+  top: 3px
 }
 
 .layoutCourses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-left: 2%;
 }
 
 .coursesList {

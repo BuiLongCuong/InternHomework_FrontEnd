@@ -1,9 +1,9 @@
-import MainBody from "../components/Body/MainBody/MainBody";
+import Lesson from "../components/Body/MainBody/Lesson/Lesson";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-function HomePage() {
+function LessonPage() {
   const loginState = useSelector((state) => state.login.login);
   const navigate = useNavigate();
   useEffect(() => {
@@ -13,8 +13,8 @@ function HomePage() {
   }, []);
   return (
     <>
-      <MainBody />
+      <Lesson />
     </>
   );
 }
-export default HomePage;
+export default LessonPage;

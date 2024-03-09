@@ -1,5 +1,5 @@
 .sideBar {
-    height: 100vh;
+    height: 100vw;
     width: 13%;
     /*background-color: darkred;*/
     position: fixed;
@@ -11,7 +11,7 @@
     -webkit-box-shadow: 3px 0px 24px -1px rgba(219, 216, 219, 1);
     -moz-box-shadow: 3px 0px 24px -1px rgba(219, 216, 219, 1);
     box-shadow: 3px 0px 24px -1px rgba(219, 216, 219, 1);
-
+    top: 0;
 }
 .item {
     margin-top: 50px;

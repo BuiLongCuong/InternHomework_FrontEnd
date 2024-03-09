@@ -1,13 +1,33 @@
+.boxTitleParticipating {
+  display: flex;
+  justify-content: space-between;
+}
+.nextCoursesParticipating {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 5%;
+}
+.arrowCoursesParticipating {
+  display: flex;
+  align-items: center;
+}
+.kickArrowCoursesParticipating {
+  position: relative;
+  top: 8px
+}
+
 .titlePar {
   margin-top: 2%;
+  margin-left: 2%;
 }
 
 .boxLayoutPar {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
+  padding-left: 2%;
 }
 .listPar {
-  width: 95%;
+  width: 98%;
   height: 200px;
   border: 2px solid rgb(215, 211, 211);
   border-radius: 10px;

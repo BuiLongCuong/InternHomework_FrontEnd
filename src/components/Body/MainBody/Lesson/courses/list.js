@@ -1,4 +1,5 @@
 import "./courses.css";
+import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 
 function List() {
   return (

@@ -1,0 +1,12 @@
+.layoutBody {
+    display: flex;
+    /*justify-content: center;*/
+}
+.sideBarBody {
+    width: 13%;
+}
+.outletBody {
+    width: 87%;
+    display: flex;
+    justify-content: center;
+}
