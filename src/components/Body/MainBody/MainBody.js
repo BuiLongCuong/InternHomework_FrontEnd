@@ -1,4 +1,6 @@
 import "./MainBody.css";
+import Courses from "./courses/courses";
+import Participating from "./Participating/Participating";
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 
 export default function MainBody() {
@@ -72,4 +74,12 @@ export default function MainBody() {
 
         </>
     );
+  return (
+    <>
+      <div className="mainBody">
+        <Courses />
+        <Participating />
+      </div>
+    </>
+  );
 }
