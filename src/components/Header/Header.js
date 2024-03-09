@@ -9,7 +9,9 @@ return (
             </div>
             <div className="user">
                 <div className="userDetails">
-                    <div className="imgUser"></div>
+                    <div className="imgUser">
+                        <img src="/images/avt.jpg" alt=""/>
+                    </div>
                     <div className="nameUser">
                         Bùi Long Cường
                     </div>
